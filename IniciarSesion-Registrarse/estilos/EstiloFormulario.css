@@ -1,0 +1,83 @@
+* {
+    text-align: center;
+    font-family: Forte;/*tipo grafia*/
+}
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+    
+}
+body{
+    background-image: url(https://static.vecteezy.com/system/resources/previews/013/681/217/non_2x/abstract-elegant-dark-green-background-with-golden-line-diagonal-and-lighting-effect-sparkle-luxury-template-design-free-vector.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    font-family: Forte;/*tipo grafia*/
+    font-size: 20px;/*tamaño letra*/
+    line-height: 25px;/*tamaño del espacio*/
+}
+/*ESTILO basico de boton */
+.index input[type="submit"]{
+    border: none;
+    outline: none;
+    height: 30px;
+    width: 140px;
+    background: #6c816b; /*color del boton*/
+    color: #000000; /*color del boton de la letra*/
+    font-size: 20px;
+    border-radius: 20px;
+    
+}
+/*ESTILO DE FORMULARIO*/
+form{
+    width: max-content;
+    margin: auto;
+    margin-top: 5cm;
+    margin-bottom: 5cm;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+    border-radius: 10px;
+    padding: 65px;
+    padding-top: 45px;
+    background: rgb(61, 150, 120, 0.6);
+    box-shadow: 0 0 15px #996515, inset 0 0 15px #996515;
+    
+}
+/* PARA EL COLOR DEL :placeholder*/
+input::placeholder{
+    color: #4e4b4b;
+
+}
+/*ESTILO DE INPUT DE CORREO Y CONTRA*/
+.index input[type="text"],
+.index input[type="password"],
+.index input[type="file"],
+.index select{
+    border: 2px solid black;
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    color: #000000;
+    font-size: 16px;
+}
+/*color de enlace*/
+#CrearCuenta{
+    color: #72467c;
+}
+/*color cuando pasa el raton por el boton*/
+.index input[type="submit"]:hover{
+    background-color: #6c816b;
+    box-shadow: 0 0 15px #ffffff, inset 0 0 15px #ffffff;
+
+}
+
+#Ver {
+    display: none;
+}

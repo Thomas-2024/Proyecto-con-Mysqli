@@ -1,0 +1,131 @@
+body{
+    margin: 0px;
+    background-color: #cee885;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+}
+header{
+    display: flex;
+    height: 70px;
+    background-color: #00bf63;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+.usuario{
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    padding: 20px;
+}
+.titulo {
+    font-size: 45px;
+    text-align: center;
+}
+.images{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: auto;
+    justify-content: center;
+    width: 50px;
+}
+
+.navegador_lateral{
+    background-color: #76cb52;
+    padding-top: 20px;
+    width: max-content;
+    min-height: 100vh;
+}
+.navegador_lateral a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0c110c;
+    display: block;
+    border: none;
+    background: none;
+    cursor: pointer;
+    outline: none;
+}
+.navegador_lateral a:hover{
+    color: #315f31;
+}
+.active{
+    background-color: #32e1e1;
+    color: #315f31;
+}
+.contenido_dropdown{
+    display: none;
+    background-color: #3db1b1;
+    padding-left: 8px;
+    transition: max-height 1s;
+    max-height: 0;
+    overflow: hidden;
+}
+.fa-calendar-alt{
+    float: left;
+    padding-left: 8px;
+}
+.fa-box-open{
+    float: left;
+    padding-left: 8px;
+}
+.fa-id-badge{
+    float: left;
+    padding-left: 8px;
+}
+@media screen and (max-height:450px){
+    .navegador_lateral{padding-top: 15px;}
+    .navegador_lateral a{font: size 18px;}
+}
+.Bienvenido {
+    color: #000;
+    background-image: url(Imagenes/fondodetitulobodega.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+    
+}
+
+.header_contenido {
+    height: 100%;
+    width: 100%;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+.boton_dropdown {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #0c110c;
+    display: flex;
+    border: none;
+    background: none;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+    outline: none;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.boton_dropdown span{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.fa-chevron-right {
+    transition: transform .3s;
+}
+
+.imagenes {
+    width: 100px;
+    border-radius: 50%;
+}

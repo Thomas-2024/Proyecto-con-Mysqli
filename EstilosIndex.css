@@ -1,0 +1,203 @@
+body {
+    margin: 0px;
+    background-color: #caffbf;
+}
+
+.titulo {
+    font-size: 45px;
+}
+
+header{
+    display: flex;
+    height: 70px;
+    background-color: #ffff9f;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.encabezado {
+    background-color: rgba(240, 203, 39, 0.527);
+    border-radius: 20px;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+}
+
+.botonEncabezado {
+    box-sizing: border-box;
+    padding: 20px;
+    font-size: 5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.imagenes {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding: auto;
+    justify-content: center;
+    width: 50px;
+}
+
+.imagen{
+    width: 80px;
+}
+
+#cajatxt {
+    border: none;
+    background-color: beige;
+    border-color: beige;
+}
+
+.contenido {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.titulo {
+    margin: 0px;
+    text-align: center;
+    font-size: 90px;
+}
+
+.Bienvenido {
+    color: #fff;
+    background-image: url(../ImagenesImportantes/fondodetitulobodega.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: top;
+}
+
+.capa2 {
+    padding-top: 100px;
+    padding-bottom: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #0008;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.caracteristicas {
+    padding-left: 0px;
+    margin-left: auto;
+}
+
+.borde_animado {
+    width: 0%;
+    height: 3px;
+}
+
+.boton {
+    text-decoration: none;
+    color: #07F;
+}
+
+.boton:hover + .borde_animado {
+    width: 100%;
+    height: 3px;
+    transition: width 0.5s;
+    background: linear-gradient(To right, #00f, #09f);
+}
+
+.caracteristicas {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.caracteristica {
+    list-style: none;
+    border-radius: 10px;
+    background-color: #59fa;
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    margin-top: 50px;
+    color: #fff;
+    width: 300px;
+    box-shadow: 0px 0px 17px 10px #0003;
+    display: inline-block;
+}
+
+.caracteristica_imagen {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+}
+
+.caracteristica_titulo {
+    margin: 0;
+    font-size: 23px;
+}
+
+.caracteristica_contenido {
+    text-align: justify;
+    font-size: smaller;
+}
+
+.purple {
+    background-color: #5059;
+}
+
+.red {
+    background-color: #f22a;
+}
+
+.green {
+    background-color: #096a;
+}
+
+.blue {
+    background-color: #00ea;
+}
+
+.pie_de_pagina {
+    background-color: #0af5;
+    margin: 0;
+    padding: 20px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.redes_sociales a {
+    display: flex;
+    text-decoration: none;
+    margin: 10px 0px;
+}
+
+.redes_sociales i {
+    margin: 0px 7px 0px 0px;
+    font-size: 20px;
+}
+
+.fa-instagram {
+    background: linear-gradient(to right, purple 50%, pink, yellow);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.fa-x-twitter {
+    color: #000;
+}
+
+.fa-facebook {
+    color: #00f;
+}
+
+video {
+    width: 100%;
+    min-height: 100px;
+}
+
+.logo {
+    width: 100px;
+    border-radius: 50%;
+}

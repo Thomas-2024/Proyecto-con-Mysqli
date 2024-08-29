@@ -1,0 +1,88 @@
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: ADELIA;/*tipo grafia*/
+}
+.fi1{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+.fi2{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+}
+/*mensaje de cuantos registros hay*/
+.fi3{
+    font-size: 20px;
+    color: #000;
+    margin-bottom: 10px;
+    text-align: center;
+    font-family: Cascadia Code; /*tipo grafia*/
+}
+/*botones colsultar and ver todos los registros*/
+.fi1  input[type="text"]{
+    text-align: center;
+    border: 2px solid black;
+    background: transparent;
+    outline: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    color: #000000;
+    font-size: 16px;
+}
+.fi1 input[type="submit"]{
+    text-align: center;
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 120px;
+    background: #a7e2a4; /*color del boton*/
+    color: #000000; /*color del boton de la letra*/
+    font-size: 18px;
+    border-radius: 10px;  
+}
+.fi2 button[type="button"]{
+    text-align: center;
+}
+#f1{
+    border: none;
+    outline: none;
+    height: 25px;
+    width: 210px;
+    background: #a7e2a4; /*color del boton*/
+    color: #000000; /*color del boton de la letra*/
+    font-size: 18px;
+    border-radius: 10px;  
+}
+
+/*botones cuando pasa el raton*/
+.fi1 input[type="submit"]:hover{
+    background-color: #0af5;
+    box-shadow: 0 0 15px #0057f7, inset 0 0 15px #0057f7;
+}
+#f1:hover{
+    background-color: #0af5;
+    box-shadow: 0 0 15px #0057f7, inset 0 0 15px #0057f7;
+}
+/*estilo de la linea de la tabla*/
+#registros{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 30px;
+}
+/*color de colum*/
+.co{
+    background-color:  #0af5;;
+}
+/*color del fondo de la tabla*/
+.si{
+    background-color: #ffffff;
+}
